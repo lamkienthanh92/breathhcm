@@ -1,0 +1,15 @@
+[build]
+  # CI=false: Create React App would otherwise fail the build on any lint warning
+  command = "CI=false npm run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "20"
+  # Safety margin: the large JSON grid asset in /public is held in memory during the copy step
+  NODE_OPTIONS = "--max-old-space-size=4096"
+
+# The analysis engine and worker must never be served stale after a release
+[[headers]]
+  for = "/analysis/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

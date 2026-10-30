@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "BREATH-HCMC: residential exposure assessment and exposome-wide analysis in the browser"
+version: 1.0.0
+date-released: 2026-10-30
+license: MIT
+repository-code: "https://github.com/lamkienthanh92/BREATHHCMC"
+url: "https://breath-hcmc.netlify.app/"
+keywords: [exposome, geocoding error, location privacy, open geospatial data, remote sensing, reproducibility]
+authors:
+  - {family-names: Phan, given-names: Cong Thanh, affiliation: "Van Lang University"}
+  - {family-names: Dang, given-names: Van Bao, affiliation: "Van Lang University"}
+  - {family-names: Truong, given-names: Tin Chanh, affiliation: "Van Lang University"}
+  - {family-names: Pham, given-names: Anh Ho Minh, affiliation: "Van Lang University"}
+  - {family-names: Than, given-names: Tam Tran Minh, affiliation: "Van Lang University"}
+  - {family-names: Pham, given-names: Tuan Anh, affiliation: "Lanh Binh Thang General Hospital"}
+  - {family-names: Pham, given-names: Tram Thuy, affiliation: "Lanh Binh Thang General Hospital"}
+  - {family-names: Lam, given-names: Thanh Kien, affiliation: "Van Lang University", orcid: "https://orcid.org/0009-0003-5878-9278", email: thanh.lk@vlu.edu.vn}

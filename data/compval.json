@@ -1,0 +1,22 @@
+{
+ "gaussian": {
+  "models": 29,
+  "max_abs_beta_diff": 9.997558336749535e-14,
+  "max_abs_se_diff": 6.0472460372551495e-15,
+  "max_abs_p_diff": 3.3472113969423845e-12
+ },
+ "binomial": {
+  "models": 29,
+  "max_abs_beta_diff": 8.77941747079447e-09,
+  "max_abs_se_diff": 1.1856439996460466e-09,
+  "max_abs_p_diff": 3.058640163366988e-08
+ },
+ "poisson": {
+  "models": 29,
+  "max_abs_beta_diff": 7.862719937634655e-08,
+  "max_abs_se_diff": 8.446049082344587e-09,
+  "max_abs_p_diff": 5.057651273343566e-07
+ },
+ "bh_fdr_example": true,
+ "engine_runs_identical": true
+}

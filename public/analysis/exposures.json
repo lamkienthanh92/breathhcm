@@ -1,0 +1,266 @@
+[
+ {
+  "key": "pm25",
+  "label": "PM2.5, satellite (µg/m³)",
+  "domain": "Ambient air quality",
+  "source": "ACAG SatPM V6.GL.03, 0.01°",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "no2",
+  "label": "NO2 column index",
+  "domain": "Ambient air quality",
+  "source": "Sentinel-5P TROPOMI",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "co",
+  "label": "CO column index",
+  "domain": "Ambient air quality",
+  "source": "Sentinel-5P TROPOMI",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "so2",
+  "label": "SO2 column index",
+  "domain": "Ambient air quality",
+  "source": "Sentinel-5P TROPOMI",
+  "transform": "none",
+  "nonNegative": true
+ },
+ {
+  "key": "o3",
+  "label": "O3 tropospheric column index",
+  "domain": "Ambient air quality",
+  "source": "Sentinel-5P TROPOMI",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "ndvi",
+  "label": "NDVI",
+  "domain": "Greenness & blue space",
+  "source": "MODIS 2020–2024, 250 m",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "evi",
+  "label": "EVI",
+  "domain": "Greenness & blue space",
+  "source": "MODIS 2020–2024, 250 m",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "water",
+  "label": "Surface water occurrence (%)",
+  "domain": "Greenness & blue space",
+  "source": "JRC 1984–2021",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "treecover",
+  "label": "Tree canopy cover 2000 (%)",
+  "domain": "Greenness & blue space",
+  "source": "Hansen GFC",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "park_n1km",
+  "label": "Urban parks within 1 km (n)",
+  "domain": "Greenness & blue space",
+  "source": "OpenStreetMap",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "forest_dist",
+  "label": "Distance to forest / woodland (m)",
+  "domain": "Greenness & blue space",
+  "source": "OpenStreetMap",
+  "transform": "log10",
+  "nonNegative": false
+ },
+ {
+  "key": "builtup",
+  "label": "Built-up surface (%)",
+  "domain": "Urban form, density & heat",
+  "source": "GHSL 2020, 100 m",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "population",
+  "label": "Population (per 100-m cell)",
+  "domain": "Urban form, density & heat",
+  "source": "WorldPop 2024, 100 m",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "nightlights",
+  "label": "Night-time light radiance (nW/cm²/sr)",
+  "domain": "Urban form, density & heat",
+  "source": "VIIRS DNB, 12-month mean",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "lst",
+  "label": "Land surface temperature (°C)",
+  "domain": "Urban form, density & heat",
+  "source": "MODIS 2025, 1 km",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "elevation",
+  "label": "Elevation (m)",
+  "domain": "Urban form, density & heat",
+  "source": "SRTM, 30 m",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "forestloss",
+  "label": "Forest loss since 2000 (%)",
+  "domain": "Urban form, density & heat",
+  "source": "Hansen GFC",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "industrial_n1km",
+  "label": "Industrial sites within 1 km (n)",
+  "domain": "Pollution-emitting land uses",
+  "source": "OpenStreetMap",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "fuel_n1km",
+  "label": "Fuel stations within 1 km (n)",
+  "domain": "Pollution-emitting land uses",
+  "source": "OpenStreetMap",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "market_n1km",
+  "label": "Traditional markets within 1 km (n)",
+  "domain": "Pollution-emitting land uses",
+  "source": "OpenStreetMap",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "butcher_dist",
+  "label": "Distance to butcher / meat processing (m)",
+  "domain": "Pollution-emitting land uses",
+  "source": "OpenStreetMap",
+  "transform": "log10",
+  "nonNegative": false
+ },
+ {
+  "key": "publicinfra_dist",
+  "label": "Distance to water / waste infrastructure (m)",
+  "domain": "Pollution-emitting land uses",
+  "source": "OpenStreetMap",
+  "transform": "log10",
+  "nonNegative": false
+ },
+ {
+  "key": "wastewater_dist",
+  "label": "Distance to wastewater treatment plant (m)",
+  "domain": "Pollution-emitting land uses",
+  "source": "OpenStreetMap",
+  "transform": "log10",
+  "nonNegative": false
+ },
+ {
+  "key": "landfill_dist",
+  "label": "Distance to landfill (m)",
+  "domain": "Pollution-emitting land uses",
+  "source": "OpenStreetMap",
+  "transform": "log10",
+  "nonNegative": false
+ },
+ {
+  "key": "farm_dist",
+  "label": "Distance to farm / livestock land (m)",
+  "domain": "Pollution-emitting land uses",
+  "source": "OpenStreetMap",
+  "transform": "log10",
+  "nonNegative": false
+ },
+ {
+  "key": "hospital_n1km",
+  "label": "Hospitals within 1 km (n)",
+  "domain": "Urban services & health-care access",
+  "source": "OpenStreetMap",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "clinic_n1km",
+  "label": "Clinics / pharmacies within 1 km (n)",
+  "domain": "Urban services & health-care access",
+  "source": "OpenStreetMap",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "school_n1km",
+  "label": "Schools within 1 km (n)",
+  "domain": "Urban services & health-care access",
+  "source": "OpenStreetMap",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "recreation_dist",
+  "label": "Distance to sports / recreation facility (m)",
+  "domain": "Urban services & health-care access",
+  "source": "OpenStreetMap",
+  "transform": "log10",
+  "nonNegative": false
+ },
+ {
+  "key": "veterinary_dist",
+  "label": "Distance to veterinary facility (m)",
+  "domain": "Urban services & health-care access",
+  "source": "OpenStreetMap",
+  "transform": "log10",
+  "nonNegative": false
+ },
+ {
+  "key": "road_kernel",
+  "label": "Road kernel index, Σ exp(−d/100 m)",
+  "domain": "Traffic & roads",
+  "source": "OpenStreetMap major roads (444 named roads)",
+  "transform": "none",
+  "nonNegative": false
+ },
+ {
+  "key": "road_mindist",
+  "label": "Distance to nearest major road (m)",
+  "domain": "Traffic & roads",
+  "source": "OpenStreetMap major roads",
+  "transform": "log10p1",
+  "nonNegative": false
+ },
+ {
+  "key": "road_n200",
+  "label": "Major roads within 200 m (n)",
+  "domain": "Traffic & roads",
+  "source": "OpenStreetMap major roads",
+  "transform": "none",
+  "nonNegative": false
+ }
+]

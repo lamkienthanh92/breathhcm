@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #F6F5EF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #E7EEE7;
+  color: #1C3B2E;
+}
+
+.App {
+  text-align: left;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F6F5EF;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9C4B4;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A9A497;
+}

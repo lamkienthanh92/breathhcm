@@ -1,0 +1,9 @@
+{
+  "short_name": "One Health HCMC",
+  "name": "One Health Exposure Explorer — HCMC",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1C3B2E",
+  "background_color": "#F6F5EF"
+}

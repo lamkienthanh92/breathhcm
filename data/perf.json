@@ -1,0 +1,23 @@
+[
+ {
+  "n": 155,
+  "engine_seconds_cpython": 1.0,
+  "ok": true,
+  "tests": 81,
+  "measure_seconds_node": 0.55
+ },
+ {
+  "n": 500,
+  "engine_seconds_cpython": 1.4,
+  "ok": true,
+  "tests": 84,
+  "measure_seconds_node": 1.78
+ },
+ {
+  "n": 1155,
+  "engine_seconds_cpython": 8.9,
+  "ok": true,
+  "tests": 84,
+  "measure_seconds_node": 4.11
+ }
+]
