@@ -5,6 +5,8 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  # react-scripts 5 declares an old TypeScript peer range; install without failing on peer conflicts
+  NPM_FLAGS = "--legacy-peer-deps"
   # Safety margin: the large JSON grid asset in /public is held in memory during the copy step
   NODE_OPTIONS = "--max-old-space-size=4096"
 
